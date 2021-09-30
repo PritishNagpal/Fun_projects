@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<style>
+
+	/* Set the background color of all the elements */
+	*{
+		background-color: black;
+	}
+
+	.button {
+
+		/* Change the shape of the button */
+		height: 35px;
+		width: 100px;
+		border-radius: 20%;
+
+		/* Position the buttons */
+		position: fixed;
+		top: 48vh;
+
+		/* Center the name of the button */
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.button_1 {
+
+		/* Position the button */
+		left: 35vw;
+
+		/* Add the shadow effect for the button */
+		box-shadow: inset 0 0 18px #fff,
+		inset -6px 0 18px #f3bad6,
+		inset 6px 0 18px #0ff,
+		inset -6px 0 30px #f3bad6,
+		inset 6px 0 30px #0ff,
+		0 0 18px #fff, 4px 0 18px #f3bad6,
+		-4px 0 18px #0ff;
+	}
+	.button_2 {
+
+		/* Position the button */
+		left:55vw;
+
+		/* Add the shadow effect for the button */
+		box-shadow: inset 0 0 18px #fff,
+		inset 6px 0 18px #f3bad6,
+		inset -6px 0 18px #0ff,
+		inset 6px 0 30px #f3bad6,
+		inset -6px 0 30px #0ff,
+		0 0 18px #fff, -4px 0 18px #f3bad6,
+		4px 0 18px #0ff;
+	}
+</style>
+</head>
+
+<body>
+	<div class="button button_1">
+		BUTTON 1
+	</div>
+
+	<div class="button button_2">
+		BUTTON 2
+	</div>
+</body>
+
+</html>
